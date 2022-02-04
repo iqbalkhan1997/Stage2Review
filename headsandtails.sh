@@ -8,11 +8,9 @@ do
 coin=$((RANDOM%2));
 	if [ $coin -eq 0 ]
 	then
-#	echo "heads"$heads
 	((heads++))
 	else
 	((tails++))
-#	echo "tails   $tails"
 fi
 	if [ $heads -eq 21 ]
 	then
